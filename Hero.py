@@ -13,7 +13,7 @@ class Hero(object):
 			self.level_up()
 
 	def level_up(self):
-		print "Thou hast leveled up %s! Thy hp is now %d and thy power is now %d" % (self.name, self.max_health, self.power)
+		print "Thou hast leveled up %s! Thy health is now %d and thy power is now %d" % (self.name, self.max_health, self.power)
 		self.max_health += 10
 		self.health = self.max_health
 		self.power += 5
